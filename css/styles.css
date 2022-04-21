@@ -60,7 +60,6 @@ img {
 .section {
   padding-top: var(--backdown-tipical);
   padding-bottom: var(--backdown-tipical);
-  outline: 1px solid purple;
 }
 
 .logo {
@@ -95,6 +94,7 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-nav .item:not(:last-child) {
