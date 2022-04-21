@@ -270,6 +270,13 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--primary-color-text);
+
+  margin-top: 10px;
+}
+
+.team-text {
+  padding-top: var(--card-set-gap);
+  padding-bottom: var(--card-set-gap);
 }
 
 /*-------- footer ---------*/
