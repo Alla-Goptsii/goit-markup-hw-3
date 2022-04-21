@@ -7,37 +7,50 @@
     <title>Портфоліо</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />      <link rel="stylesheet" href="./css/styles.css" />
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    
-      <!--навігація сайту-->
+    <!--навігація сайту-->
 
-      <header>
-        <div class="container main-nav">
-          <nav class="header">
-            <a href="/" class="logo">Web<span class="logo-dark">Studio</span> </a>
-            <ul class="site-nav list">
-              <li class="item"><a href="./index.html" class="link ">Студия</a></li>
-              <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-              <li class="item"><a href="#" class="link">Контакти</a></li>
-            </ul>
-          </nav>
-    
-          <ul class="contacts list">
+    <header>
+      <div class="container main-nav">
+        <nav class="header">
+          <a href="/" class="logo">Web<span class="logo-dark">Studio</span> </a>
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
             <li class="item">
-              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+              <a href="./portfolio.html" class="link current">Портфолио</a>
             </li>
-            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            <li class="item"><a href="#" class="link">Контакти</a></li>
           </ul>
-        </div>
+        </nav>
+
+        <ul class="contacts list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
-      <section>
-        <div class="container portfolio">
+      <section class="section">
+        <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="button-list list">
             <li><button type="button" class="button">Все</button></li>
@@ -46,14 +59,18 @@
             <li><button type="button" class="button">Дизайн</button></li>
             <li><button type="button" class="button">Маркетинг</button></li>
           </ul>
-      
-          <div class="container-card">
+
+          <div>
             <ul class="gallery list">
-              <li class="card-list">
+              <li class="card-item">
                 <article class="card">
-                  <div class="cart-tumb">
+                  <div class="card-tumb">
                     <a href="">
-                      <img src="./images/techno.jpg" alt="Ноутбук" width="370" />
+                      <img
+                        src="./images/techno.jpg"
+                        alt="Ноутбук"
+                        width="370"
+                      />
                       <div class="card-text">
                         <h2 class="gallery-title">Технокряк</h2>
                         <p class="gallery-item">Веб-сайт</p>
@@ -63,97 +80,157 @@
                 </article>
               </li>
 
-              <li class="card-list">
+              <li class="card-item">
                 <article class="card">
-                  <div class="cart-tumb">
-                    <a href=""><img src="./images/poster.jpg"
-                      alt="Парни играют в баскетбол" width="370"/>
+                  <div class="card-tumb">
+                    <a href=""
+                      ><img
+                        src="./images/poster.jpg"
+                        alt="Парни играют в баскетбол"
+                        width="370"
+                      />
                       <div class="card-text">
-                      <h2 class="gallery-title">
-                        Постер<span lang="en"> Orlean vs Golden Star></span>
-                      </h2>
-                      <p class="gallery-item">Дизайн</p>
-                    </div>
-                  </a>
+                        <h2 class="gallery-title">
+                          Постер<span lang="en"> Orlean vs Golden Star></span>
+                        </h2>
+                        <p class="gallery-item">Дизайн</p>
+                      </div>
+                    </a>
                   </div>
                 </article>
+              </li>
 
-                <li class="card-list">
-                  <article class="card">
-                    <div class="cart-tumb">
-                      <a href="">
-                        <img src="./images/restoran.jpg" alt="Рыбка" width="370" />
+              <li class="card-item">
+                <article class="card">
+                  <div class="card-tumb">
+                    <a href="">
+                      <img
+                        src="./images/restoran.jpg"
+                        alt="Рыбка"
+                        width="370"
+                      />
+                      <div class="card-text">
                         <h2 class="gallery-title">
                           Ресторан <span lang="en"> Seafood </span>
                         </h2>
-                        <p class="gallery-item">Приложение</p></a>
-                    </div>
-                  </article>
-
-                  <li class="card-list">
-                    <article class="card">
-                      <div class="cart-tumb">
-                        <a href="">
-                          <img src="./images/prime.jpg" alt="Наушники" width="370" />
-                          <h2 class="gallery-title">
-                            Проект <span lang="en"> Prime </span>
-                          </h2>
-                          <p class="gallery-item">Маркетинг</p></a>
+                        <p class="gallery-item">Приложение</p>
                       </div>
-                    </article>
+                    </a>
+                  </div>
+                </article>
+              </li>
 
-                    <li class="card-list">
-                      <article class="card">
-                        <div class="cart-tumb">
-                          <a href="">
-                            <img src="./images/boxes.jpg" alt="Коробки" width="370" />
-                            <h2 class="gallery-title">Проект <span lang="en">Boxes</span></h2>
-                            <p class="gallery-item">Приложение</p></a>
-                        </div>
-                      </article>
+              <li class="card-item">
+                <article class="card">
+                  <div class="card-tumb">
+                    <a href="">
+                      <img
+                        src="./images/prime.jpg"
+                        alt="Наушники"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h2 class="gallery-title">
+                          Проект <span lang="en"> Prime </span>
+                        </h2>
+                        <p class="gallery-item">Маркетинг</p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </li>
 
-                      <li class="card-list">
-                        <article class="card">
-                          <div class="cart-tumb">
-                            <a href="">
-                              <img src="./images/inspiration.jpg" alt="Монитор" width="370" />
-                              <h2 class="gallery-title" lang="en">
-                                Inspiration has no Borders
-                              </h2>
-                              <p class="gallery-item">Веб-сайт</p></a>
-                          </div>
-                        </article>
+              <li class="card-item">
+                <article class="card">
+                  <div class="card-tumb">
+                    <a href="">
+                      <img src="./images/boxes.jpg" alt="Коробки" width="370" />
+                      <div class="card-text">
+                        <h2 class="gallery-title">
+                          Проект <span lang="en">Boxes</span>
+                        </h2>
+                        <p class="gallery-item">Приложение</p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </li>
 
-                        <li class="card-list">
-                          <article class="card">
-                            <div class="cart-tumb">
-                              <a href="">
-                                <img src="./images/limited.jpg" alt="Журнал" width="370" />
-                                <h2 class="gallery-title">Издание <span lang="en">Limited Edition </span>
-                                </h2>
-                                <p class="gallery-item">Дизайн</p></a>
-                            </div>
-                          </article>
+              <li class="card-item">
+                <article class="card">
+                  <div class="card-tumb">
+                    <a href="">
+                      <img
+                        src="./images/inspiration.jpg"
+                        alt="Монитор"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h2 class="gallery-title" lang="en">
+                          Inspiration has no Borders
+                        </h2>
+                        <p class="gallery-item">Веб-сайт</p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </li>
 
-                          <li class="card-list">
-                            <article class="card">
-                              <div class="cart-tumb">
-                                <a href="">
-                                  <img src="./images/lab.jpg" alt="Этикетка" width="370" />
-                                  <h2 class="gallery-title">Проект <span lang="en">LAB</span></h2>
-                                  <p class="gallery-item">Маркетинг</p></a>
-                              </div>
-                            </article>
+              <li class="card-item">
+                <article class="card">
+                  <div class="card-tumb">
+                    <a href="">
+                      <img
+                        src="./images/limited.jpg"
+                        alt="Журнал"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h2 class="gallery-title">
+                          Издание <span lang="en">Limited Edition </span>
+                        </h2>
+                        <p class="gallery-item">Дизайн</p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </li>
 
-                            <li class="card-list">
-                              <article class="card">
-                                <div class="cart-tumb">
-                                    <a href="">
-                                    <img src="./images/growing.jpg" alt="Ноутбук" width="370" />
-                                    <h2 class="gallery-title" lang="en">Growing Business</h2>
-                                    <p class="gallery-item">Приложение</p></a>
-                                </div>
-                              </article>
+              <li class="card-item">
+                <article class="card">
+                  <div class="card-tumb">
+                    <a href="">
+                      <img src="./images/lab.jpg" alt="Этикетка" width="370" />
+                      <div class="card-text">
+                        <h2 class="gallery-title">
+                          Проект <span lang="en">LAB</span>
+                        </h2>
+                        <p class="gallery-item">Маркетинг</p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </li>
+
+              <li class="card-item">
+                <article class="card">
+                  <div class="card-tumb">
+                    <a href="">
+                      <img
+                        src="./images/growing.jpg"
+                        alt="Ноутбук"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h2 class="gallery-title" lang="en">
+                          Growing Business
+                        </h2>
+                        <p class="gallery-item">Приложение</p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </li>
             </ul>
           </div>
         </div>
@@ -163,19 +240,29 @@
     <!--футер контактні дані-->
     <footer class="footer">
       <div class="container">
-        <a href="/" class="logo-footer">Web<span class="logo-light">Studio</span></a>
+        <a href="/" class="logo-footer"
+          >Web<span class="logo-light">Studio</span></a
+        >
         <address>
-          <a class="map footer-margin" href="">г. Киев, пр-т Леси Украинки, 26</a>
+          <a class="map footer-margin" href=""
+            >г. Киев, пр-т Леси Украинки, 26</a
+          >
           <ul class="list">
             <li>
-              <a class="link-footer footer-margin" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a
+                class="link-footer footer-margin"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
             <li>
-              <a class="link-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="link-footer" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
             </li>
           </ul>
         </address>
-        </div>
+      </div>
     </footer>
   </body>
 </html>
